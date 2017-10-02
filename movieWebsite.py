@@ -10,6 +10,7 @@ import movie
 movie class instance follows the below syntax:
   movieinstance.Movie( title, storyline, poster url, trailer url )
 '''
+# it: title, storyline, poster url, trailer url
 it = movie.Movie("It",
                  "A group of bullied kids band together when a shapeshifting"
                  "demon, taking the appearance of a clown, begins hunting "
@@ -17,6 +18,7 @@ it = movie.Movie("It",
                  "http://cdn2.enelbreak.com/espectaculos/wp-content/uploads/2017/03/It-El-Payaso-Asesino-2017-poster.jpg",  # noqa
                  "https://www.youtube.com/watch?v=7no56Zw1e20")  # noqa
 
+# mother: title, storyline, poster url, trailer url
 mother = movie.Movie("Mother",
                      "A couple's relationship is tested when uninvited guests "
                      "arrive at their home, disrupting their tranquil "
@@ -24,6 +26,7 @@ mother = movie.Movie("Mother",
                      "http://ksassets.timeincuk.net/wp/uploads/sites/55/2017/05/Mother-920x584.jpg",  # noqa
                      "https://www.youtube.com/watch?v=XpICoc65uh0")  # noqa
 
+# kingsman: title, storyline, poster url, trailer url
 kingsman = movie.Movie("Kingsman: The Golden Circle ",
                        "When their headquarters are destroyed and the world "
                        "is held hostage, the Kingsman's journey leads them to "
@@ -33,6 +36,8 @@ kingsman = movie.Movie("Kingsman: The Golden Circle ",
                        "http://cdn1-www.comingsoon.net/assets/uploads/2017/08/kingsmanheader.jpg",  # noqa
                        "https://www.youtube.com/watch?v=4PggfbzJcvA")  # noqa
 
+#list of movies to be passed
 movies = [it, mother, kingsman]
 
+#Open HTML page via fresh_tomatoes.py file
 fresh_tomatoes.open_movies_page(movies)
