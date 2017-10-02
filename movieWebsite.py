@@ -14,15 +14,15 @@ it = movie.Movie("It",
                  "A group of bullied kids band together when a shapeshifting"
                  "demon, taking the appearance of a clown, begins hunting "
                  "children.",
-                 "http://cdn2.enelbreak.com/espectaculos/wp-content/uploads/2017/03/It-El-Payaso-Asesino-2017-poster.jpg",
-                 "https://www.youtube.com/watch?v=7no56Zw1e20")
+                 "http://cdn2.enelbreak.com/espectaculos/wp-content/uploads/2017/03/It-El-Payaso-Asesino-2017-poster.jpg",  # noqa
+                 "https://www.youtube.com/watch?v=7no56Zw1e20")  # noqa
 
 mother = movie.Movie("Mother",
                      "A couple's relationship is tested when uninvited guests "
                      "arrive at their home, disrupting their tranquil "
                      "existence.",
-                     "http://ksassets.timeincuk.net/wp/uploads/sites/55/2017/05/Mother-920x584.jpg",
-                     "https://www.youtube.com/watch?v=XpICoc65uh0")
+                     "http://ksassets.timeincuk.net/wp/uploads/sites/55/2017/05/Mother-920x584.jpg",  # noqa
+                     "https://www.youtube.com/watch?v=XpICoc65uh0")  # noqa
 
 kingsman = movie.Movie("Kingsman: The Golden Circle ",
                        "When their headquarters are destroyed and the world "
@@ -30,8 +30,8 @@ kingsman = movie.Movie("Kingsman: The Golden Circle ",
                        "the discovery of an allied spy organization in the "
                        "US. These two elite secret organizations must band "
                        "together to defeat a common enemy.",
-                       "http://cdn1-www.comingsoon.net/assets/uploads/2017/08/kingsmanheader.jpg",
-                       "https://www.youtube.com/watch?v=4PggfbzJcvA")
+                       "http://cdn1-www.comingsoon.net/assets/uploads/2017/08/kingsmanheader.jpg",  # noqa
+                       "https://www.youtube.com/watch?v=4PggfbzJcvA")  # noqa
 
 movies = [it, mother, kingsman]
 
